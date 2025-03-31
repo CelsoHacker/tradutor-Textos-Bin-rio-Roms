@@ -1,0 +1,1 @@
+# tradutor-Textos-Bin-rio-Roms
