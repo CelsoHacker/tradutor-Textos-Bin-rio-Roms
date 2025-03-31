@@ -13,18 +13,35 @@ Bem-vindo ao **Tradutor Universal de ROMs**, um programa inovador que extrai, tr
 ## 🖥️ Captura de Tela
 ![Interface do Programa](screenshot.jpg)
 
-como usar
-1 Carregar ROM: Clique em "Carregar ROM" -> Selecione Ultima 7 Black Gate.smc. (OK)
-2 Carregar TBL: Clique em "Carregar TBL Manual" -> Selecione o arquivo snes_ascii.tbl (ou a TBL correta de Ultima 7, se tiver).
-3 Extração: O programa tentará extrair texto usando os EXAMPLE_TEXT_OFFSETS do snes_handler.py e a TBL carregada.
-Verificar Resultado:
-4 Veja se a caixa "Dados Extraídos / Visualização" é preenchida.
-Veja no Status/Log se aparece a mensagem "X textos extraídos".
-5 Habilitar Botão: Se a extração encontrou textos (X > 0), o botão "INICIAR TRADUÇÃO" será habilitado automaticamente pela função extract_text_from_rom.
-6 Definir Pasta Destino: Clique em "Pasta Destino" -> Escolha onde salvar.
-7 Iniciar Tradução: Clique no botão "INICIAR TRADUÇÃO" (que agora deve estar habilitado).
+como usar do Tradutor
+# Interface do Programa
 
+## 📋 Como Usar
 
+1. **Carregar ROM**  
+   - Clique em *"Carregar ROM"*  
+   - Selecione `Ultima 7 Black Gates.smc`  
+
+2. **Carregar TBL**  
+   - Clique em *"Carregar TBL Manual"*  
+   - Selecione `snes_ascii.tbl` (ou a TBL específica de Ultima 7)  
+
+3. **Extração de Texto**  
+   - O programa usará os `EXAMPLE_TEXT_OFFSETS` do `snes_handler.py`  
+
+4. **Verificar Resultado**  
+   - Verifique a caixa *"Dados Extraídos / Visualização"*  
+   - Confira no *Status/Log* a mensagem `"X textos extraídos"`  
+
+5. **Habilitar Botão**  
+   - Se `X > 0`, o botão *"INICIAR TRADUÇÃO"* será ativado automaticamente  
+
+6. **Definir Pasta Destino**  
+   - Clique em *"Pasta Destino"*  
+   - Escolha o local para salvar  
+
+7. **Iniciar Tradução**  
+   - Clique em *"INICIAR TRADUÇÃO"* (botão habilitado)  
 ## 🛠️ Como Instalar
 1. **Baixe o repositório**:  
    ```bash
